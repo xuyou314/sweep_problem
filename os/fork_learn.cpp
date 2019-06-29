@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <sys/types.h>
 #include <unistd.h>
+#include <linux/sched.h>
 void forkexample()
 {
     // child process because return value zero
